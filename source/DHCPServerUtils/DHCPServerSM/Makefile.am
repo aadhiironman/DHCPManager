@@ -25,7 +25,7 @@ libCcspDhcpMgr_DhcpServerSM_la_CPPFLAGS = -I$(top_srcdir)/source/DHCPServerUtils
                                           -I$(top_srcdir)/source/DHCPServerUtils/utils \
                                           -I$(top_srcdir)/source/DHCPServerUtils/utils/include \
                                           -I$(top_srcdir)/source/DHCPServerUtils/DHCPServerSM \
-                                          -I$(top_srcdir)/source/DHCPServerUtils/Dhcpv4Server/include \
+                                          -I$(top_srcdir)/source/DHCPServerUtils/DHCPv4Server/include \
                                           -I$(top_srcdir)/source/DHCPMgrInterface \
                                           -I$(top_srcdir)/source/DHCPMgrInterface/include \
                                           -I$(top_srcdir)/source/DHCPClientUtils/DHCPv4Client/include
