@@ -22,6 +22,7 @@ SUBDIRS = DHCPMgrInterface  IPv6rtmon TR-181
 
 if DHCP_SERVER_SUPPORT
 SUBDIRS += DHCPServerUtils
+SUBDIRS += DHCPServerUtils/DHCPServerSM
 endif
 
 SUBDIRS += DHCPServerUtils/utils
